@@ -1,0 +1,47 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<configuration>
+	<property name="LOG_PATH"
+		value="/data/app/intl/daas-parque/logs" />
+
+	<property name="LOG_NAME" value="daas-parque" />
+
+	<appender name="stdout"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>
+				%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread])
+				%highlight(%-5level) %c.%M -
+				%msg%n
+			</pattern>
+
+		</encoder>
+	</appender>
+
+	<appender name="File_Appender"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/${LOG_NAME}.log</file>
+		<encoder
+			class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>
+				%d{dd-MM-yyyy HH:mm:ss.SSS} %thread %-5level %c.%M - %msg%n
+			</Pattern>
+		</encoder>
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>
+				${LOG_PATH}/historic/${LOG_NAME}-%d{yyyy-MM-dd}.log.gz
+			</fileNamePattern>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+	</appender>
+
+	<appender name="Async-Appender"
+		class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="File_Appender" />
+	</appender>
+
+	<root level="info">
+		<appender-ref ref="stdout" />
+<!-- 		<appender-ref ref="Async-Appender" /> -->
+	</root>
+</configuration>

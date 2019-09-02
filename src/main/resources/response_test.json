@@ -1,0 +1,230 @@
+[
+	{
+		"id": "839411845",
+		"href": "/productInventory/v2/products/839411845",
+		"publicId": "973694351",
+		"description": "Componente Principal de M�vil",
+		"name": "WirelessMainComponent",
+		"productType": "mobile",
+		"isBundle": true,
+		"orderDate": "2019-04-23T05:00:00Z",
+		"startDate": "2019-04-23T05:00:00Z",
+		"status": "active",
+		"billingAccount": [
+			{
+				"id": "103393561",
+				"href": "/accounts/v3/accounts/103393561",
+				"name": " ",
+				"billingMethod": "postpaid"
+			}
+		],
+		"productOffering": {
+			"id": "839411845",
+			"href": "/productCatalog/v2/offerings/839411845",
+			"name": "WirelessMainComponent",
+			"description": "Abierto Elige +"
+		},
+		"characteristic": [
+			{
+				"valueType": "Object",
+				"@type": "MobileQuota",
+				"value": {
+					"voiceQuota": [
+						{
+							"voiceAllowance": -1,
+							"unit": "seconds",
+							"destinations": [
+								"national"
+							]
+						}
+					],
+					"dataQuota": [
+						{
+							"dataAllowance": -1,
+							"unit": "MB"
+						}
+					],
+					"smsQuota": [
+						{
+							"smsAllowance": -1
+						}
+					]
+				}
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "TRANSPORT_KEY",
+				"value": "00003"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "AcquisitionType",
+				"value": "ConsessionPurchased"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "KID",
+				"value": "45A9022D32B409A7"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "PIN2",
+				"value": "7152"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "SIMTypeSKU",
+				"value": "TSPE4128234R510201"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "PUK1",
+				"value": "57657716"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "KIC",
+				"value": "092311D48F4F3320"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "PUK2",
+				"value": "20094362"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "ExternalPrice",
+				"value": "199"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "ICCID",
+				"value": "8951061021723145650"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "SIMGroup",
+				"value": "nanoSIM"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "KI",
+				"value": "EAE276041F3728AA62CCD13C03C2C315"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "RCOverrideAmount",
+				"value": ""
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "ADM1",
+				"value": "8C1806456A52E2A4"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "PIN1",
+				"value": "1234"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "CARD_PROFILE",
+				"value": "90.02.GP"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "Technology",
+				"value": "4G"
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "ciclyBilling",
+				"value": " "
+			},
+			{
+				"valueType": "String",
+				"@type": "StringType",
+				"name": "indicatorMT",
+				"value": "0"
+			}
+		],
+		"productPrice": [
+			{
+				"id": "1075691",
+				"name": "Plan Elige m�Ilim S/ 199.90",
+				"priceType": "recurring",
+				"recurringChargePeriod": "monthly",
+				"price": {
+					"amount": 169.41,
+					"units": "PEN"
+				},
+				"additionalData": [
+					{
+						"key": "Cargo de Paquete",
+						"value": "S/ 10.00"
+					},
+					{
+						"key": "Nombre de Paquete",
+						"value": "Paquete Fiesta 250"
+					},
+					{
+						"key": "Beneficios de Paquete",
+						"value": "250 min MM"
+					},
+					{
+						"key": "Duración de Beneficios de Paquete",
+						"value": "31 días"
+					},
+					{
+						"key": "Tipo de Paquete",
+						"value": "Voz"
+					},
+					{
+						"key": "Periodo de Recurrencia de Paquetes",
+						"value": "Mensual"
+					},
+					{
+						"key": "Descripción de Paquetes para Canal USSD",
+						"value": "Paquete Fiesta 250"
+					},
+					{
+						"key": "Descripción de Paquete para Canal MCSS",
+						"value": "Paquete Fiesta 250"
+					}
+				]
+			}
+		],
+		"place": [
+			{
+				"id": "79677111",
+				"name": "billing",
+				"description": "CALLE,CARLOS AUGUSTO SALAVERRY,273,,,,,BA,LA FLORIDA,CAJAMARCA,CAJAMARCA,CAJAMARCA  CAJAMARCA CAJAMARCA Peru"
+			}
+		],
+		"relatedParty": [
+			{
+				"id": "52394469",
+				"name": "CECILIA PATRICIA  PODESTA CARDENAS",
+				"role": "Consumer"
+			}
+		]
+	}
+]
